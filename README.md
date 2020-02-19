@@ -14,5 +14,5 @@
 - Lifelines
 
 ## Complété
-Lecture et affichage des questions
-Validation des réponses
+- Lecture et affichage des questions
+- Validation des réponses
