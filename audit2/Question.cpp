@@ -153,6 +153,7 @@ XMLError Questions::load(string path)
 	XMLCheckPointer(_currentChild);
 	
 	return error;
+
 }
 
 XMLError Questions::read(Question &q)
