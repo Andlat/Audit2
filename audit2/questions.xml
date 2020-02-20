@@ -1,0 +1,122 @@
+<Root>
+	<question id="001" lang="en">
+		<statement>Which of the following is another name for Software Piracy?</statement>
+		<answers>
+			<correct>Copyright Infringement of Software</correct>
+			<wrong>Pirates</wrong>
+			<wrong>SOPA</wrong>
+			<wrong>SOSA</wrong>
+		</answers>
+		<hint> It is commonly called this by Government Officials.</hint>
+	</question>
+	<question id="002" lang="en">
+		<statement>What is "torrenting"?</statement>
+		<answers>
+			<correct>The file type for programs such as Bittorrent to open to obtain illegal files</correct>
+			<wrong>A file in which it stores your browsing history on your computer</wrong>
+			<wrong>Using your computer to remotely take over another computer unwillingly</wrong>
+			<wrong>Visiting a piracy website</wrong>
+		</answers>
+		<hint> It has to deal with certain types of files</hint>
+	</question>
+	<question id="003" lang="en">
+		<statement>Which of the following is a Cyberlocker site?</statement>
+		<answers>
+			<correct>RapidShare</correct>
+			<wrong>DailyMotion</wrong>
+			<wrong>PirateBay</wrong>
+			<wrong>Youtube</wrong>
+		</answers>
+		<hint> A Cyberlocker site is one where you can store many files on a personal account.</hint>
+	</question>
+	<question id="004" lang="en">
+		<statement>Which of the following countries has the highest rate of piracy?</statement>
+		<answers>
+			<correct>Armenia</correct>
+			<wrong>Canada</wrong>
+			<wrong>China</wrong>
+			<wrong>United States</wrong>
+		</answers>
+		<hint> This country's president is named: Serzh Sargsyan</hint>
+	</question>
+	<question id="005" lang="en">
+		<statement>Around the world, many websites are used for piracy, Which of the following is the most used?</statement>
+		<answers>
+			<correct>ThePirateBay</correct>
+			<wrong>IsoHunt</wrong>
+			<wrong>TorrentReactor</wrong>
+			<wrong>torrent.com</wrong>
+		</answers>
+		<hint> This website is based off of using Torrents.</hint>
+	</question>
+	<question id="006" lang="en">
+		<statement>Around the world, Much of the data transfered using P2P networks are copyrighted. Which of the following percentages is the closest?</statement>
+		<answers>
+			<correct>99%</correct>
+			<wrong>33%</wrong>
+			<wrong>52%</wrong>
+			<wrong>92%</wrong>
+		</answers>
+		<hint> It is significantly high.</hint>
+	</question>
+	<question id="007" lang="en">
+		<statement>What is the percentage of softwares that are running worldwide and are downloaded illegally?</statement>
+		<answers>
+			<correct>42%</correct>
+			<wrong>49%</wrong>
+			<wrong>52%</wrong>
+			<wrong>73%</wrong>
+		</answers>
+		<hint> This number was taken in 2010 and is less than 50%</hint>
+	</question>
+	<question id="008" lang="en">
+		<statement>In 2010, the amount of software downloaded illegally was worth how much?</statement>
+		<answers>
+			<correct>59 Billion Dollars</correct>
+			<wrong>23 Million Dollars</wrong>
+			<wrong>32 Million Dollars</wrong>
+			<wrong>59 Million Dollars</wrong>
+		</answers>
+		<hint> The software downloaded illegally was worth quite a bit.</hint>
+	</question>
+	<question id="009" lang="en">
+		<statement>In 2010, Which of the following movies was pirated the most on the internet?</statement>
+		<answers>
+			<correct>Avatar</correct>
+			<wrong>Inception</wrong>
+			<wrong>Iron Man 2</wrong>
+			<wrong>Kick-Ass</wrong>
+		</answers>
+		<hint> This movie was also one of the most popular movies in 2010.</hint>
+	</question>
+	<question id="010" lang="en">
+		<statement>What is the most pirated piece of software on the Internet?</statement>
+		<answers>
+			<correct>Adobe Photoshop CS</correct>
+			<wrong>Microsoft Office</wrong>
+			<wrong>Windows Vista</wrong>
+			<wrong>Windows XP</wrong>
+		</answers>
+		<hint> This software is very commonly used for Graphics Design</hint>
+	</question>
+	<question id="011" lang="en">
+		<statement>In 2010, Second most popular movie was Batman: The Dark Knight. How many pirated downloads did it have?</statement>
+		<answers>
+			<correct>19 Million</correct>
+			<wrong>10 Million</wrong>
+			<wrong>17 Million</wrong>
+			<wrong>30 Million</wrong>
+		</answers>
+		<hint> Avatar, The most popular movie, had around 21 million downloads.</hint>
+	</question>
+	<question id="012" lang="en">
+		<statement>In 2010, Many Video Games were pirated for use. Which of the following was the most pirated?</statement>
+		<answers>
+			<correct>Battlefield 2 Bad Company</correct>
+			<wrong>Call of Duty Black Ops</wrong>
+			<wrong>Call of Duty Modern Warfare 3</wrong>
+			<wrong>Tom Clancy HAWX</wrong>
+		</answers>
+		<hint> This game was created by Treyarch Inc.</hint>
+	</question>
+</Root>
