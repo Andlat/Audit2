@@ -1,4 +1,4 @@
-<Root>
+<root>
 	<question id="001" lang="en">
 		<statement>Which of the following is another name for Software Piracy?</statement>
 		<answers>
@@ -119,4 +119,4 @@
 		</answers>
 		<hint> This game was created by Treyarch Inc.</hint>
 	</question>
-</Root>
+</root>
