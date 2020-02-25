@@ -10,6 +10,8 @@
 using namespace std;
 using namespace tinyxml2;
 
+#define NB_TOURS 15
+
 int main()
 {
 	srand(int(time(NULL)));
@@ -27,7 +29,7 @@ int main()
 	}
 
 	//Boucle de jeux
-	do {
+	for(unsigned tour=1; tour <= NB_TOURS; ++tour){
 		cout << "***********************************************************\n"
 			<< "************ WHO WANTS TO BE A MILLIONAIRE ??? ************\n"
 			<< "***********************************************************\n"
@@ -60,9 +62,8 @@ int main()
 
 		cin.get();//Attendre que l'tilisateur appuie sur une touche pour continuer
 		system("CLS");
+	}
 
-	} while (1);
-	
 	cin.get();
 	return 0;
 
