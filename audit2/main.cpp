@@ -5,6 +5,7 @@
 #include "tinyxml2.h"
 #include <time.h>
 #include "Question.h"
+#include "QuestionsParser.h"
 
 using namespace std;
 using namespace tinyxml2;
@@ -15,28 +16,29 @@ int main()
 
 	//question est la question et questions est la structure de gestion du XML
 	Question question;
-	Questions questions("questions.xml");
+	QuestionsParser questions("questions.xml");
 
-	//chargement du fichier XML en mémoire
-	XMLError load = questions.load();
-
-	cout << XMLDocument::ErrorIDToName(load) << endl;
-
-	//lecture de la première question du XML (question est passé par référence)
-	XMLError state = questions.read(question);
-
-	if (state != XML_SUCCESS)
-	{
-		cout << XMLDocument::ErrorIDToName(state) << endl;
+	//chargement du fichier XML de questions en mémoire
+	try{
+		questions.load();
+	}catch (XMLError &err) {
+		cout << XMLDocument::ErrorIDToName(err) << endl;
 		return -1;
 	}
 
+	//Boucle de jeux
 	do {
-
 		cout << "***********************************************************\n"
 			<< "************ WHO WANTS TO BE A MILLIONAIRE ??? ************\n"
 			<< "***********************************************************\n"
 			<< endl;
+
+		try {//lecture de la prochaine question du XML 
+			questions.read(question);
+		}catch (XMLError &err) {
+			cout << XMLDocument::ErrorIDToName(err) << endl;
+			return -2;
+		}
 
 		//change l'ordre des choix de manière aléatoire
 		question.randomize();
@@ -51,7 +53,7 @@ int main()
 			cout << "BONNE REPONSE !!" << endl;
 		}
 		else {
-			cout << "Mauvaise reponse... :(\nVous avez perdu" << endl;
+			cout << "Mauvaise reponse... :(\nVous avez perdu\n" << endl;
 			cout << "La bonne reponse etait : " << question.choix()[question.reponse()];
 			break;
 		}
@@ -59,16 +61,9 @@ int main()
 		cin.get();//Attendre que l'tilisateur appuie sur une touche pour continuer
 		system("CLS");
 
-		state = questions.read(question);
-
-	} while (state == XML_SUCCESS);
+	} while (1);
 	
-	if (state != XML_SUCCESS)
-	{
-		cout << XMLDocument::ErrorIDToName(state) << endl;
-		return -1;
-	}
-
 	cin.get();
 	return 0;
+
 }
