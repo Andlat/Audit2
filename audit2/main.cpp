@@ -9,15 +9,18 @@
 #include "tinyxml2.h"
 #include "Question.h"
 #include "QuestionsParser.h"
+#include "Util.h"
 
 using namespace std;
 using namespace tinyxml2;
 
 #define NB_TOURS 15
-
-vector<Question> questions(NB_TOURS);
+#define INCREMENTATION_MONTANT 1000
 
 bool SelectionQuestions(QuestionsParser* parser);
+
+vector<Question> questions(NB_TOURS);
+unsigned montant = 0;
 
 int main()
 {
@@ -63,12 +66,24 @@ int main()
 
 
 		if (q->validate(reponse)) {
+			montant += INCREMENTATION_MONTANT;
+
 			cout << "BONNE REPONSE !!" << endl;
+			cout << "Votre montant jusqu'a maintenant est de " << montant << '$' << endl;
+			cout << "\nVoulez-vous continuer ? (y/n) ";
+
+			char continuer = cin.get();
+
+			if (util::toUpperCase(continuer) != 'Y') {
+				cin.get();//Ignorer la touche entree
+				cout << "\n\nBYE BYE !\nVOTRE MONTANT FINAL EST DE " << montant << '$' << endl;
+				break;//Quit game
+			}
 		}
 		else {
 			cout << "Mauvaise reponse... :(\nVous avez perdu\n" << endl;
 			cout << "La bonne reponse etait : " << q->choix()[q->reponse()];
-			break;
+			break;//Lost game
 		}
 
 		cin.get();//Attendre que l'tilisateur appuie sur une touche pour continuer
@@ -91,7 +106,7 @@ bool SelectionQuestions(QuestionsParser* parser) {
 	for (unsigned i = 0; i < NB_TOURS; ++i) {
 		//Selectionner un index qui n'a pas encore ete utilise
 		do {
-			index = rand() % parser->count();
+			index = rand() % parser->count() -1;
 		} while (find(used.begin(), used.end(), index) != used.end());
 		used.push_back(index);
 		
@@ -100,7 +115,7 @@ bool SelectionQuestions(QuestionsParser* parser) {
 			parser->read(questions[i], index);
 		}
 		catch (XMLError &err) {
-			cout << XMLDocument::ErrorIDToName(err) << endl;
+			cout << XMLDocument::ErrorIDToName(err) << "\n Index: " << index << endl;
 			return false;
 		}
 	}

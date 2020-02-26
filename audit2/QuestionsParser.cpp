@@ -66,12 +66,9 @@ void QuestionsParser::load(string path) /* throws XMLError */
 }
 
 void QuestionsParser::read(Question &q, unsigned index) {/* throws XMLError */
-	cout << "STOI: " << stoi(_currentChild->FindAttribute("id")->Value()) << endl;
 	int shift = index - (stoi(_currentChild->FindAttribute("id")->Value()) -1);
-	cout << "SHIFT: " << shift << endl;
 	if (shift != 0) {
 		int sign = shift / abs(shift);
-		cout << "S: " << shift << "SI: " << sign << endl;
 		for (; abs(shift) > 0; shift -= sign) {
 			if (sign > 0)
 				nextQuestion();

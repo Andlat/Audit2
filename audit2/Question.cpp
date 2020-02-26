@@ -1,4 +1,5 @@
 #include "Question.h"
+#include "Util.h"
 
 using namespace std;
 
@@ -23,12 +24,8 @@ Question::~Question()
 
 bool Question::validate(char reponse)
 {
-	//Convertir la reponse en lettre majuscule
-	if (reponse >= 97)//a = 97, A=65 en ASCII
-		reponse -= 32;
-
 	//ramener de 0-3
-	reponse -= 65;
+	reponse = util::toUpperCase(reponse) - 65;
 
 	return reponse == _reponse;
 }

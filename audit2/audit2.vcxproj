@@ -157,11 +157,13 @@
     <ClCompile Include="Question.cpp" />
     <ClCompile Include="QuestionsParser.cpp" />
     <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Question.h" />
     <ClInclude Include="QuestionsParser.h" />
     <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
