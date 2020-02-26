@@ -75,8 +75,6 @@ int main()
 			char continuer = cin.get();
 
 			if (util::toUpperCase(continuer) != 'Y') {
-				cin.get();//Ignorer la touche entree
-				cout << "\n\nBYE BYE !\nVOTRE MONTANT FINAL EST DE " << montant << '$' << endl;
 				break;//Quit game
 			}
 		}
@@ -89,6 +87,8 @@ int main()
 		cin.get();//Attendre que l'tilisateur appuie sur une touche pour continuer
 		system("CLS");
 	}
+
+	cout << "\n\nBYE BYE !\nVOTRE MONTANT FINAL EST DE " << montant << '$' << endl;
 
 	cin.get();
 	return 0;
