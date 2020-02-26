@@ -1,4 +1,6 @@
 #include "QuestionsParser.h"
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 using namespace tinyxml2;
@@ -54,9 +56,30 @@ void QuestionsParser::load(string path) /* throws XMLError */
 	_root = _doc.FirstChildElement("root");
 	XMLCheckPointer(_root);
 
+	//Count the number of available questions by accessing the id of the last question
+	XMLCheckPointer(_root->LastChildElement("question"));
+	_count = stoi(_root->LastChildElement("question")->FindAttribute("id")->Value());//TODO Need to manage exception for accessing the attribute
+
 	//Get first question
 	_currentChild = _root->FirstChildElement("question");
 	XMLCheckPointer(_currentChild);
+}
+
+void QuestionsParser::read(Question &q, unsigned index) {/* throws XMLError */
+	cout << "STOI: " << stoi(_currentChild->FindAttribute("id")->Value()) << endl;
+	int shift = index - (stoi(_currentChild->FindAttribute("id")->Value()) -1);
+	cout << "SHIFT: " << shift << endl;
+	if (shift != 0) {
+		int sign = shift / abs(shift);
+		cout << "S: " << shift << "SI: " << sign << endl;
+		for (; abs(shift) > 0; shift -= sign) {
+			if (sign > 0)
+				nextQuestion();
+			else
+				prevQuestion();
+		}
+	}
+	this->read(q);
 }
 
 void QuestionsParser::read(Question &q) /* throws XMLError */
@@ -101,11 +124,21 @@ void QuestionsParser::read(Question &q) /* throws XMLError */
 		choix[i] = answer->GetText();
 	}
 
-	q = Question(question, choix, 0);
+	//TODO manage exceptions for the difficulty // Accessing the attribute (attribute lvl)
+	q = Question(question, choix, 0, Question::getLevel.find(_currentChild->FindAttribute("lvl")->Value())->second);
 
 	this->nextQuestion();
 }
 
 void QuestionsParser::nextQuestion() { /* throws XMLError */
 	_currentChild = _currentChild->NextSiblingElement("question");
+	XMLCheckPointer(_currentChild)
+}
+void QuestionsParser::prevQuestion() { /* throws XMLError */
+	_currentChild = _currentChild->PreviousSiblingElement("question");
+	XMLCheckPointer(_currentChild)
+}
+
+unsigned QuestionsParser::count(){
+	return _count;
 }

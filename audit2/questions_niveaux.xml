@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <question id="1" lang="en" lvl="Medium">
+    <statement>Bobby Locke was a popular golf player. Which nation did he come from?</statement>
+    <answers>
+      <correct>South Africa</correct>
+      <wrong>Canada</wrong>
+      <wrong>Spain</wrong>
+      <wrong>China</wrong>
+    </answers>
+  </question>
+  <question id="2" lang="en" lvl="Easy">
+    <statement>What city hosted the 2012 Summer Olympics?</statement>
+    <answers>
+      <correct>London, England</correct>
+      <wrong>Rio, Brazil</wrong>
+      <wrong>Montreal, Canada</wrong>
+      <wrong>Athens, Greece</wrong>
+    </answers>
+  </question>
+  <question id="3" lang="en" lvl="Medium">
+    <statement>Harry Potter has a pet owl. What's the name of this owl?</statement>
+    <answers>
+      <correct>Hedwig</correct>
+      <wrong>Errol</wrong>
+      <wrong>Owlbert Einstein</wrong>
+      <wrong>Hootie</wrong>
+    </answers>
+  </question>
+  <question id="4" lang="en" lvl="Easy">
+    <statement>What are the names of Harry Potter's two best friends?</statement>
+    <answers>
+      <correct>Ron and Hermione</correct>
+      <wrong>Fred and George</wrong>
+      <wrong>Joey and Chandler</wrong>
+      <wrong>Chuckie and Hannibal</wrong>
+    </answers>
+  </question>
+  <question id="5" lang="en" lvl="Easy">
+    <statement>What is the first element on the periodic table?</statement>
+    <answers>
+      <correct>Hydrogen</correct>
+      <wrong>Helium</wrong>
+      <wrong>Uranium</wrong>
+      <wrong>Iron</wrong>
+    </answers>
+  </question>
+  <question id="6" lang="en" lvl="Medium">
+    <statement>1990's actress Holly Robinson went on to marry which now-retired NFL player?</statement>
+    <answers>
+      <correct>Rodney Peete</correct>
+      <wrong>Luke Kuechly</wrong>
+      <wrong>Andrew Luck</wrong>
+      <wrong>Barry Sanders</wrong>
+    </answers>
+  </question>
+  <question id="7" lang="en" lvl="VeryHard">
+    <statement>Paul D. Hubbard is the quarterback who is credited with inventing the modern huddle.  What affliction did he suffer from?</statement>
+    <answers>
+      <correct>Deafness</correct>
+      <wrong>Blindness</wrong>
+      <wrong>Only had one leg</wrong>
+      <wrong>Obesity</wrong>
+    </answers>
+  </question>
+  <question id="8" lang="en" lvl="Easy">
+    <statement>The first World Cup for Football was held in which country in 1930?</statement>
+    <answers>
+      <correct>Uruguay</correct>
+      <wrong>Pakistan</wrong>
+      <wrong>Spain</wrong>
+      <wrong>Brazil</wrong>
+    </answers>
+  </question>
+  <question id="9" lang="en" lvl="Medium">
+    <statement>In the 2018 French Open women's singles tournament, Naomi Osaka was defeated in the third round. Who did she lose to?</statement>
+    <answers>
+      <correct>Madison Keys</correct>
+      <wrong>Sloane Stephens</wrong>
+      <wrong>Naomi Osaka</wrong>
+      <wrong>Simona Halep</wrong>
+    </answers>
+  </question>
+  <question id="10" lang="en" lvl="Medium">
+    <statement>During its vernal equinox, the Northern Hemisphere of the Earth tilts in which direction?</statement>
+    <answers>
+      <correct>Towards the Sun</correct>
+      <wrong>East</wrong>
+      <wrong>Away from the Sun</wrong>
+      <wrong>North</wrong>
+    </answers>
+  </question>
+  <question id="11" lang="en" lvl="Medium">
+    <statement>How many legs does a butterfly have?</statement>
+    <answers>
+      <correct>6</correct>
+      <wrong>4</wrong>
+      <wrong>2</wrong>
+      <wrong>16</wrong>
+    </answers>
+  </question>
+  <question id="12" lang="en" lvl="VeryHard">
+    <statement>How many pounds of food does Hollywood superstar Dwayne "the Rock" Johnson consume daily?</statement>
+    <answers>
+      <correct>10</correct>
+      <wrong>4</wrong>
+      <wrong>28</wrong>
+      <wrong>15</wrong>
+    </answers>
+  </question>
+  <question id="13" lang="en" lvl="Hard">
+    <statement>How old was Sheldon Cooper when he earned his PhD?</statement>
+    <answers>
+      <correct>16</correct>
+      <wrong>22</wrong>
+      <wrong>10</wrong>
+      <wrong>30</wrong>
+    </answers>
+  </question>
+  <question id="14" lang="en" lvl="Medium">
+    <statement>Who was the shortest player ever to play in the NBA?</statement>
+    <answers>
+      <correct>Tyrone Bogues</correct>
+      <wrong>Lionel Malamed</wrong>
+      <wrong>Ed Melvin</wrong>
+      <wrong>Yao Ming</wrong>
+    </answers>
+  </question>
+  <question id="15" lang="en" lvl="Easy">
+    <statement>What is the roman name for the goddess Hecate?</statement>
+    <answers>
+      <correct>Trivia</correct>
+      <wrong>Mars</wrong>
+      <wrong>Aphrodite</wrong>
+      <wrong>Uranus</wrong>
+    </answers>
+  </question>
+  <question id="16" lang="en" lvl="Easy">
+    <statement>Where is Sheldon Cooper originally from?</statement>
+    <answers>
+      <correct>Texas</correct>
+      <wrong>Maryland</wrong>
+      <wrong>Australia</wrong>
+      <wrong>Grass</wrong>
+    </answers>
+  </question>
+  <question id="17" lang="en" lvl="Medium">
+    <statement>The most-iconic moment in the illustrious career of Jimi Hendrix was his playing "the Star Spangled Banner" at the Woodstock music festival. In which year did this occur?</statement>
+    <answers>
+      <correct>1969</correct>
+      <wrong>1842</wrong>
+      <wrong>1981</wrong>
+      <wrong>1942</wrong>
+    </answers>
+  </question>
+  <question id="18" lang="en" lvl="VeryHard">
+    <statement>What is the first of the four cups of wine diners are obligated to drink at the Passover Seder meant for?</statement>
+    <answers>
+      <correct>Kiddush</correct>
+      <wrong>Maggid</wrong>
+      <wrong>Hallel</wrong>
+      <wrong>Birkat Hamazon</wrong>
+    </answers>
+  </question>
+  <question id="19" lang="en" lvl="Hard">
+    <statement>On the day of his wife's murder, what drink was Andy drinking in the movie "The Shawshank Redemption"?</statement>
+    <answers>
+      <correct>Bourbon</correct>
+      <wrong>Vodka</wrong>
+      <wrong>Water</wrong>
+      <wrong>Juice</wrong>
+    </answers>
+  </question>
+  <question id="20" lang="en" lvl="Medium">
+    <statement>Which team sent four players to the 2015 NBA All-Star Game?</statement>
+    <answers>
+      <correct>Atlanta Hawks</correct>
+      <wrong>Miami Heat</wrong>
+      <wrong>Dallas Mavericks</wrong>
+      <wrong>Toronto Raptors</wrong>
+    </answers>
+  </question>
+  <question id="21" lang="en" lvl="VeryHard">
+    <statement>How many days did it take Moses to journey from Horeb to Kadeshbarnea?</statement>
+    <answers>
+      <correct>11</correct>
+      <wrong>2</wrong>
+      <wrong>365</wrong>
+      <wrong>62</wrong>
+    </answers>
+  </question>
+  <question id="22" lang="en" lvl="Easy">
+    <statement>Which famous characters was visited by three ghosts on Christmas Day?</statement>
+    <answers>
+      <correct>Ebenezer Scrooge</correct>
+      <wrong>Mickey Mouse</wrong>
+      <wrong>Harry Potter</wrong>
+      <wrong>Alexander the Great</wrong>
+    </answers>
+  </question>
+  <question id="23" lang="en" lvl="VeryHard">
+    <statement>What was the first videogame console with a CD-ROM embedded into it?</statement>
+    <answers>
+      <correct>Panasonic 3DO</correct>
+      <wrong>Nintendo Game Cube</wrong>
+      <wrong>Sega Dreamcast</wrong>
+      <wrong>Sony PlayStation</wrong>
+    </answers>
+  </question>
+  <question id="24" lang="en" lvl="Easy">
+    <statement>What nut is traditionally on the Waldorf salad?</statement>
+    <answers>
+      <correct>Walnuts</correct>
+      <wrong>Brazil nuts</wrong>
+      <wrong>Almonds</wrong>
+      <wrong>Hazelnuts</wrong>
+    </answers>
+  </question>
+  <question id="25" lang="en" lvl="Easy">
+    <statement>How many hours make up a day?</statement>
+    <answers>
+      <correct>24 hours</correct>
+      <wrong>36 hours</wrong>
+      <wrong>15.76 hours</wrong>
+      <wrong>10 hours</wrong>
+    </answers>
+  </question>
+  <question id="26" lang="en" lvl="Medium">
+    <statement>The character for Matilda in "Leon" proved to be the inspiration for which movie?</statement>
+    <answers>
+      <correct>Colombiana</correct>
+      <wrong>Chuckie</wrong>
+      <wrong>Hannah</wrong>
+      <wrong>Jaws</wrong>
+    </answers>
+  </question>
+  <question id="27" lang="en" lvl="Medium">
+    <statement>What cattle end-product was named Wisconsin's Unofficial State Muffin in 1989?</statement>
+    <answers>
+      <correct>Cow Chip</correct>
+      <wrong>Cheese muffin</wrong>
+      <wrong>Chocolate chips muffin</wrong>
+      <wrong>Brownie</wrong>
+    </answers>
+  </question>
+  <question id="28" lang="en" lvl="Medium">
+    <statement>In 2015, what major water body in the State of Indiana's capital city, Indianapolis, was dyed green during the celebration of St. Patrick's Day?</statement>
+    <answers>
+      <correct>White River</correct>
+      <wrong>Cedar Creek</wrong>
+      <wrong>Deep River</wrong>
+      <wrong>Big Blue River</wrong>
+    </answers>
+  </question>
+  <question id="29" lang="en" lvl="Easy">
+    <statement>How many gold candlesticks were built and placed in the temple?</statement>
+    <answers>
+      <correct>Ten.</correct>
+      <wrong>Nine.</wrong>
+      <wrong>Eight.</wrong>
+      <wrong>Six.</wrong>
+    </answers>
+  </question>
+  <question id="30" lang="en" lvl="Easy">
+    <statement>Which NBA star faced a 15-year prison yet was granted clemency after only four months?</statement>
+    <answers>
+      <correct>Allen Iverson</correct>
+      <wrong>LeBron James</wrong>
+      <wrong>Anthony Davis</wrong>
+      <wrong>Chris Paul</wrong>
+    </answers>
+  </question>
+  <question id="31" lang="en" lvl="Hard">
+    <statement>In the beginning, what did God give us for meat?</statement>
+    <answers>
+      <correct>Herb</correct>
+      <wrong>Water</wrong>
+      <wrong>Fire</wrong>
+      <wrong>Rain</wrong>
+    </answers>
+  </question>
+  <question id="32" lang="en" lvl="VeryHard">
+    <statement>Whose idea was it to have a very loud opera song playing over the speakers in the prison in the movie "The Shawshank Redemption"?</statement>
+    <answers>
+      <correct>Tim Robbins</correct>
+      <wrong>Bob Gunton</wrong>
+      <wrong>Morgan Freeman</wrong>
+      <wrong>Clancy Brown</wrong>
+    </answers>
+  </question>
+  <question id="33" lang="en" lvl="Easy">
+    <statement>Diamonds are made up almost entirely of what element?</statement>
+    <answers>
+      <correct>Carbon</correct>
+      <wrong>Hydrogen dioxyde</wrong>
+      <wrong>Iron</wrong>
+      <wrong>Helium</wrong>
+    </answers>
+  </question>
+  <question id="34" lang="en" lvl="Easy">
+    <statement>In tennis, a serve that lands in an opposition's service box, but is untouched by the opposition player can be referred to as?</statement>
+    <answers>
+      <correct>Ace</correct>
+      <wrong>Deuce</wrong>
+      <wrong>Backspin</wrong>
+      <wrong>Volley</wrong>
+    </answers>
+  </question>
+  <question id="35" lang="en" lvl="Hard">
+    <statement>What is the main ingredient in hushpuppies?</statement>
+    <answers>
+      <correct>Cornmeal</correct>
+      <wrong>Chocolate</wrong>
+      <wrong>Corn syrup</wrong>
+      <wrong>Blue</wrong>
+    </answers>
+  </question>
+  <question id="36" lang="en" lvl="VeryHard">
+    <statement>How long did it take for development of the film "The Shawshank Redemption" to begin after the rights had been purchased by Frank Darabont?</statement>
+    <answers>
+      <correct>5 years</correct>
+      <wrong>10 years</wrong>
+      <wrong>1 year</wrong>
+      <wrong>77 years</wrong>
+    </answers>
+  </question>
+  <question id="37" lang="en" lvl="Easy">
+    <statement>In 1967, what band released the hit song "Ruby Tuesday"?</statement>
+    <answers>
+      <correct>The Rolling Stones</correct>
+      <wrong>Nirvana</wrong>
+      <wrong>Creedence Clearwater Revival</wrong>
+      <wrong>The Beetles</wrong>
+    </answers>
+  </question>
+  <question id="38" lang="en" lvl="Easy">
+    <statement>What was the number one US ringtone of 2005?</statement>
+    <answers>
+      <correct>Candyshop</correct>
+      <wrong>Marimba</wrong>
+      <wrong>Opening</wrong>
+      <wrong>Oreo</wrong>
+    </answers>
+  </question>
+  <question id="39" lang="en" lvl="Easy">
+    <statement>How much does the human brain weigh?</statement>
+    <answers>
+      <correct>About 3 pounds</correct>
+      <wrong>About 5 pounds</wrong>
+      <wrong>About 100 pounds</wrong>
+      <wrong>About 0.1 pounds</wrong>
+    </answers>
+  </question>
+  <question id="40" lang="en" lvl="Medium">
+    <statement>In the latter 19th century, which now-common Valentine's Day practice was considered bad luck?</statement>
+    <answers>
+      <correct>Signing cards</correct>
+      <wrong>Kissing</wrong>
+      <wrong>Giving flowers</wrong>
+      <wrong>Eating at the restaurant</wrong>
+    </answers>
+  </question>
+  <question id="41" lang="en" lvl="Medium">
+    <statement>What is the name of the wizarding newspaper based in London?</statement>
+    <answers>
+      <correct>The Daily Prophet</correct>
+      <wrong>The New-York Times</wrong>
+      <wrong>Gazette de Montreal</wrong>
+      <wrong>The magical paper</wrong>
+    </answers>
+  </question>
+  <question id="42" lang="en" lvl="Easy">
+    <statement>What U.S. state is the "Land of enchantment"?</statement>
+    <answers>
+      <correct>New Mexico</correct>
+      <wrong>North Carolina</wrong>
+      <wrong>Vietnam</wrong>
+      <wrong>Las Vegas</wrong>
+    </answers>
+  </question>
+  <question id="43" lang="en" lvl="Medium">
+    <statement>Which rapper is featured on Fifth Harmony's song "Worth It"?</statement>
+    <answers>
+      <correct>Kid Ink</correct>
+      <wrong>Cardi B.</wrong>
+      <wrong>Kendrick Lamar</wrong>
+      <wrong>DaBaby</wrong>
+    </answers>
+  </question>
+  <question id="44" lang="en" lvl="Easy">
+    <statement>What is the name of the spaceship that Han Solo captains?</statement>
+    <answers>
+      <correct>Millennium Falcon</correct>
+      <wrong>The Evil SpaceShip</wrong>
+      <wrong>Empire</wrong>
+      <wrong>The Republic</wrong>
+    </answers>
+  </question>
+  <question id="45" lang="en" lvl="Medium">
+    <statement>Prior to Brooks taking his life, what does he carve on the wall in the movie "The Shawshank Redemption"?</statement>
+    <answers>
+      <correct>Brooks was here</correct>
+      <wrong>Brooks dies here</wrong>
+      <wrong>I am hungry</wrong>
+      <wrong>Kill me</wrong>
+    </answers>
+  </question>
+  <question id="46" lang="en" lvl="Easy">
+    <statement>Which was the first team to break the record set by the 1996 Bulls of 72 regular-season victories against only 10 losses?</statement>
+    <answers>
+      <correct>Golden State Warriors</correct>
+      <wrong>Atlanta Hawks</wrong>
+      <wrong>Miami Heat</wrong>
+      <wrong>Boston Celtics</wrong>
+    </answers>
+  </question>
+  <question id="47" lang="en" lvl="Medium">
+    <statement>In what year was the first modern Olympic Games held?</statement>
+    <answers>
+      <correct>1896</correct>
+      <wrong>300 A.D.</wrong>
+      <wrong>1452</wrong>
+      <wrong>2004</wrong>
+    </answers>
+  </question>
+  <question id="48" lang="en" lvl="Hard">
+    <statement>The Chainsmokers' and Halsey's 2016 track "Closer" was inspired by another song by which 1990's rock band?</statement>
+    <answers>
+      <correct>Blink-182</correct>
+      <wrong>The Cranberries</wrong>
+      <wrong>Pearl Jam</wrong>
+      <wrong>Red Hot Chili Peppers</wrong>
+    </answers>
+  </question>
+  <question id="49" lang="en" lvl="Hard">
+    <statement>In what year was "Se7en" released?</statement>
+    <answers>
+      <correct>1995</correct>
+      <wrong>1990</wrong>
+      <wrong>2008</wrong>
+      <wrong>1800</wrong>
+    </answers>
+  </question>
+  <question id="50" lang="en" lvl="Medium">
+    <statement>Where did the sport of curling originate?</statement>
+    <answers>
+      <correct>Scotland</correct>
+      <wrong>Ireland</wrong>
+      <wrong>Antartica</wrong>
+      <wrong>Finland</wrong>
+    </answers>
+  </question>
+  <question id="51" lang="en" lvl="Easy">
+    <statement>What is the official language of the Canadian province Quebec?</statement>
+    <answers>
+      <correct>French</correct>
+      <wrong>English</wrong>
+      <wrong>Spanish</wrong>
+      <wrong>Arabic</wrong>
+    </answers>
+  </question>
+  <question id="52" lang="en" lvl="VeryHard">
+    <statement>Who was the first Western music artist(s) to be allowed to perform a concert in China?</statement>
+    <answers>
+      <correct>Wham!</correct>
+      <wrong>George Michael</wrong>
+      <wrong>Celine Dion</wrong>
+      <wrong>Justn Bieber</wrong>
+    </answers>
+  </question>
+  <question id="53" lang="en" lvl="VeryHard">
+    <statement>Where is the Uagadou School of Magic located?</statement>
+    <answers>
+      <correct>Uganda</correct>
+      <wrong>Burundi</wrong>
+      <wrong>United Arab Emirates</wrong>
+      <wrong>Russia</wrong>
+    </answers>
+  </question>
+  <question id="54" lang="en" lvl="Easy">
+    <statement>In which US state is US president JFK buried?</statement>
+    <answers>
+      <correct>Virginia</correct>
+      <wrong>Florida</wrong>
+      <wrong>San Francisco</wrong>
+      <wrong>California</wrong>
+    </answers>
+  </question>
+  <question id="55" lang="en" lvl="Medium">
+    <statement>What is the only sea on Earth with no coastline?</statement>
+    <answers>
+      <correct>Sargasso Sea</correct>
+      <wrong>Mediterranean sea</wrong>
+      <wrong>Atlantic Ocean</wrong>
+      <wrong>Dead sea</wrong>
+    </answers>
+  </question>
+</root>

@@ -28,8 +28,19 @@ public:
 
 	void read(Question& q); /* throws XMLError */
 
+	/** Read a specific question specified by its index.
+	  * If the index is out of bounds (higher than {@link QuestionsParser::count()} -1), this reads the next question.
+	  * @throws XMLError if the xml is malformed
+	  **/
+	void read(Question& q, unsigned index);
+
+	unsigned count();
+
 private:
 	void nextQuestion(); /* throws XMLError */
+	void prevQuestion(); /* throws XMLError */
+
+	unsigned _count = 0;//Number of questions available in the xml
 
 	std::string _path;
 	tinyxml2::XMLDocument _doc;

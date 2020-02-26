@@ -20,11 +20,11 @@ const parser = {
 		let xml = new libxml.Document();
 		let xmlRoot = xml.node('root');
 
-		data = data.split('\n');
-		//skip the difficulty for now
-		for(let i=0; i < data.length/7; ++i){//7 lines per question
+		data = data.split('\n').map(s => s.trim());
+
+		for(let i=0; i < parseInt(data.length/7); ++i){//7 lines per question
 			let j=i*7;
-			let q = xmlRoot.node('question').attr({id:i+1, lang:'en'});
+			let q = xmlRoot.node('question').attr({id:i+1, lang:'en', lvl:data[j]});
 			q.node('statement', data[j+1]);
 
 			let a = q.node('answers');

@@ -2,12 +2,14 @@
 
 using namespace std;
 
+const std::unordered_map<std::string, Question::Level> Question::getLevel = { {"Easy", Level::EASY}, {"Medium", Level::MEDIUM}, {"Hard", Level::HARD}, {"VeryHard", Level::VERYHARD} };
+
 Question::Question()
 {
 }
 
-Question::Question(string q, string* choix/*, string indice*/, int r)
-	: _question(q)/*, _indice(indice)*/, _reponse(r)
+Question::Question(string q, string* choix/*, string indice*/, int r, Level lvl)
+	: _question(q)/*, _indice(indice)*/, _reponse(r), _lvl(lvl)
 {
 	for (ushort i = 0; i < 4; ++i) {
 		_choix[i] = choix[i];
@@ -72,6 +74,10 @@ string Question::indice()
 	return _indice;
 }
 */
+
+Question::Level Question::getLvl() {
+	return _lvl;
+}
 
 ostream& operator << (ostream& s, const Question & q)
 {
