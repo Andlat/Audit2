@@ -143,7 +143,7 @@ void QuestionsParser::prevQuestion() { /* throws XMLError */
 		XMLCheckPointer(_currentChild);
 	}catch (XMLError err) {
 		this->prevDifficulty();//Will throw an exception if is at the first question of the first difficulty
-		_currentChild = _currentDifficulty->FirstChildElement("question");
+		_currentChild = _currentDifficulty->LastChildElement("question");
 	}
 }
 
