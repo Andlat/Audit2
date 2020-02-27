@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <easy>
+    <question lang="en" lvl="easy" id="1">
+      <statement>Quelle ville a accueilli les Jeux Olympiques d'été 2012?</statement>
+      <answers>
+        <correct>Londres, Angleterre</correct>
+        <wrong>Rio, Brésil</wrong>
+        <wrong>Montréal, Canada</wrong>
+        <wrong>Athènes, Grèce</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="2">
+      <statement>Quels sont les noms des deux meilleurs amis de Harry Potter?</statement>
+      <answers>
+        <correct>Ron et Hermione</correct>
+        <wrong>Fred et George</wrong>
+        <wrong>Joey et Chandler</wrong>
+        <wrong>Chuckie et Hannibal</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="3">
+      <statement>Quel est le premier élément du tableau périodique?</statement>
+      <answers>
+        <correct>l'hydrogène</correct>
+        <wrong>Hélium</wrong>
+        <wrong>Uranium</wrong>
+        <wrong>Fer</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="4">
+      <statement>La première Coupe du monde de football a eu lieu dans quel pays en 1930?</statement>
+      <answers>
+        <correct>Uruguay</correct>
+        <wrong>Pakistan</wrong>
+        <wrong>Espagne</wrong>
+        <wrong>Brésil</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="5">
+      <statement>Quel est le nom romain pour la déesse Hécate?</statement>
+      <answers>
+        <correct>Trivia</correct>
+        <wrong>Mars</wrong>
+        <wrong>Aphrodite</wrong>
+        <wrong>Uranus</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="6">
+      <statement>Où se trouve Sheldon Cooper à l'origine de?</statement>
+      <answers>
+        <correct>Texas</correct>
+        <wrong>Maryland</wrong>
+        <wrong>Australie</wrong>
+        <wrong>Herbe</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="7">
+      <statement>Quels sont les personnages célèbres a été visité par trois fantômes le jour de Noël?</statement>
+      <answers>
+        <correct>Ebenezer Scrooge</correct>
+        <wrong>Mickey</wrong>
+        <wrong>Harry Potter</wrong>
+        <wrong>Alexandre le Grand</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="8">
+      <statement>Qu'est-ce que l'écrou est traditionnellement la salade Waldorf?</statement>
+      <answers>
+        <correct>Noix</correct>
+        <wrong>les noix du Brésil</wrong>
+        <wrong>Amandes</wrong>
+        <wrong>noisettes</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="9">
+      <statement>Combien d'heures faire un jour?</statement>
+      <answers>
+        <correct>24 heures</correct>
+        <wrong>36 heures</wrong>
+        <wrong>15.76 heures</wrong>
+        <wrong>10 heures</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="10">
+      <statement>Combien de chandeliers d'or ont été construits et placés dans le temple?</statement>
+      <answers>
+        <correct>Ten.</correct>
+        <wrong>Nine.</wrong>
+        <wrong>Huit.</wrong>
+        <wrong>Six.</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="11">
+      <statement>Quelle star de la NBA fait face à une prison de 15 ans encore a été accordée grâce après seulement quatre mois?</statement>
+      <answers>
+        <correct>Allen Iverson</correct>
+        <wrong>LeBron James</wrong>
+        <wrong>Anthony Davis</wrong>
+        <wrong>Chris Paul</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="12">
+      <statement>Les diamants sont composées presque entièrement de quel élément?</statement>
+      <answers>
+        <correct>Carbon</correct>
+        <wrong>l'hydrogène dioxyde</wrong>
+        <wrong>Fer</wrong>
+        <wrong>Hélium</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="13">
+      <statement>En tennis, servir que les terres dans la zone de service d'une opposition, mais est touché par le joueur de l'opposition peut être appelé?</statement>
+      <answers>
+        <correct>Ace</correct>
+        <wrong>Deuce</wrong>
+        <wrong>Backspin</wrong>
+        <wrong>Volley</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="14">
+      <statement>En 1967, ce groupe a publié la chanson « Ruby Tuesday »?</statement>
+      <answers>
+        <correct>Les Rolling Stones</correct>
+        <wrong>Nirvana</wrong>
+        <wrong>Creedence Clearwater Revival</wrong>
+        <wrong>Les Coléoptères</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="15">
+      <statement>Quel a été le numéro un américain de sonnerie 2005?</statement>
+      <answers>
+        <correct>Candyshop</correct>
+        <wrong>Marimba</wrong>
+        <wrong>d'ouverture</wrong>
+        <wrong>Oreo</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="16">
+      <statement>Comment bien peser le cerveau humain?</statement>
+      <answers>
+        <correct>Environ 3 livres</correct>
+        <wrong>A propos de 5 livres</wrong>
+        <wrong>environ 100 livres</wrong>
+        <wrong>environ 0,1 livres</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="17">
+      <statement>Dans quel état américain est la « Terre d'enchantement »?</statement>
+      <answers>
+        <correct>Nouveau-Mexique</correct>
+        <wrong>en Caroline du Nord</wrong>
+        <wrong>Vietnam</wrong>
+        <wrong>Las Vegas</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="18">
+      <statement>Quel est le nom du vaisseau spatial que Han Solo capitaines?</statement>
+      <answers>
+        <correct>Millennium Falcon</correct>
+        <wrong>Le mal VaisseauSpatial</wrong>
+        <wrong>Empire</wrong>
+        <wrong>La République</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="19">
+      <statement>Quelle a été la première équipe à briser le record établi par les Bulls 1996 de 72 victoires en saison régulière contre seulement 10 défaites?</statement>
+      <answers>
+        <correct>Golden State Warriors</correct>
+        <wrong>Atlanta Hawks</wrong>
+        <wrong>Miami Heat</wrong>
+        <wrong>Boston Celtics</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="20">
+      <statement>Quelle est la langue officielle de la province canadienne du Québec?</statement>
+      <answers>
+        <correct>Français</correct>
+        <wrong>English</wrong>
+        <wrong>espagnol</wrong>
+        <wrong>Arabe</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="easy" id="21">
+      <statement>Dans quel état américain est président américain JFK enterré?</statement>
+      <answers>
+        <correct>Virginie</correct>
+        <wrong>Florida</wrong>
+        <wrong>San Francisco</wrong>
+        <wrong>Californie</wrong>
+      </answers>
+    </question>
+  </easy>
+  <medium>
+    <question lang="en" lvl="medium" id="22">
+      <statement>Bobby Locke était un joueur de golf populaire. Quelle nation est-il venu?</statement>
+      <answers>
+        <correct>Afrique du Sud</correct>
+        <wrong>Canada</wrong>
+        <wrong>Espagne</wrong>
+        <wrong>Chine</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="23">
+      <statement>Harry Potter a un hibou animal. Quel est le nom de ce hibou?</statement>
+      <answers>
+        <correct>Hedwig</correct>
+        <wrong>Errol</wrong>
+        <wrong>Owlbert Einstein</wrong>
+        <wrong>Hootie</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="24">
+      <statement>L'actrice de 1990 Holly Robinson a continué de se marier qui maintenant à la retraite joueur de la NFL?</statement>
+      <answers>
+        <correct>Rodney Peete</correct>
+        <wrong>Luke Kuechly</wrong>
+        <wrong>Andrew Chance</wrong>
+        <wrong>Barry Sanders</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="25">
+      <statement>Dans le 2018 Open français tournoi simple féminin, Naomi Osaka a été battu au troisième tour. Qui at-elle perdu à?</statement>
+      <answers>
+        <correct>Clef Madison</correct>
+        <wrong>Sloane Stephens</wrong>
+        <wrong>Naomi Osaka</wrong>
+        <wrong>Simona Halep</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="26">
+      <statement>Au cours de son équinoxe, l'hémisphère nord de la Terre bascule dans quelle direction?</statement>
+      <answers>
+        <correct>vers le soleil</correct>
+        <wrong>Est</wrong>
+        <wrong>Loin du Soleil</wrong>
+        <wrong>du Nord</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="27">
+      <statement>Combien de pattes un papillon ont?</statement>
+      <answers>
+        <correct>6</correct>
+        <wrong>4</wrong>
+        <wrong>2</wrong>
+        <wrong>16</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="28">
+      <statement>Qui a été le joueur le plus court jamais à jouer dans la NBA?</statement>
+      <answers>
+        <correct>Tyrone Bogues</correct>
+        <wrong>Lionel Malamed</wrong>
+        <wrong>Ed Melvin</wrong>
+        <wrong>Yao Ming</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="29">
+      <statement>Le moment le plus emblématique de la carrière illustre de Jimi Hendrix était son jeu « Star Spangled Banner » au festival de musique de Woodstock. En quelle année cela se produit?</statement>
+      <answers>
+        <correct>1969</correct>
+        <wrong>1842</wrong>
+        <wrong>1981</wrong>
+        <wrong>1942</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="30">
+      <statement>Quelle équipe a envoyé quatre joueurs à la NBA 2015 All-Star Game?</statement>
+      <answers>
+        <correct>Atlanta Hawks</correct>
+        <wrong>Miami Heat</wrong>
+        <wrong>Dallas Mavericks</wrong>
+        <wrong>Toronto Raptors</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="31">
+      <statement>Le caractère de Mathilde dans « Léon » a prouvé être l'inspiration pour quel film?</statement>
+      <answers>
+        <correct>Colombiana</correct>
+        <wrong>Chuckie</wrong>
+        <wrong>Hannah</wrong>
+        <wrong>Mâchoires</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="32">
+      <statement>Quel produit fin du bétail a été nommé État non officiel du Wisconsin Muffin en 1989?</statement>
+      <answers>
+        <correct>Chip de vache</correct>
+        <wrong>muffin Cheese</wrong>
+        <wrong>Des pépites de chocolat muffin</wrong>
+        <wrong>brownie</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="33">
+      <statement>En 2015, ce grand corps de l'eau dans l'État de la capitale de l'Indiana, Indianapolis, était teint en vert lors de la célébration de la Journée de la Saint-Patrick?</statement>
+      <answers>
+        <correct>White River</correct>
+        <wrong>Cedar Creek</wrong>
+        <wrong>Deep River</wrong>
+        <wrong>Big Blue River</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="34">
+      <statement>Dans ce dernier du 19ème siècle, qui maintenant commun la pratique de la Saint-Valentin a été Jour considéré comme la malchance?</statement>
+      <answers>
+        <correct>cartes de signature</correct>
+        <wrong>embrassant</wrong>
+        <wrong>donner des fleurs</wrong>
+        <wrong>Manger au restaurant</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="35">
+      <statement>Quel est le nom du journal basé à Londres Sorcier?</statement>
+      <answers>
+        <correct>Le Daily Prophet</correct>
+        <wrong>Le New-York Times</wrong>
+        <wrong>Gazette de Montréal</wrong>
+        <wrong>Le papier magique</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="36">
+      <statement>Le rappeur qui figure sur la chanson Fifth Harmony « Worth It »?</statement>
+      <answers>
+        <correct>Kid Ink</correct>
+        <wrong>Cardi B.</wrong>
+        <wrong>Kendrick Lamar</wrong>
+        <wrong>DaBaby</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="37">
+      <statement>Avant Brooks prendre sa vie, qu'est-ce qu'il sculptent sur le mur dans le film « The Shawshank Redemption »?</statement>
+      <answers>
+        <correct>Brooks était ici</correct>
+        <wrong>Brooks meurt ici</wrong>
+        <wrong>Je suis faim</wrong>
+        <wrong>Tuez-moi</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="38">
+      <statement>En quelle année a été les premiers Jeux Olympiques modernes ont eu lieu?</statement>
+      <answers>
+        <correct>1896</correct>
+        <wrong>300 A.D.</wrong>
+        <wrong>1452</wrong>
+        <wrong>2004</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="39">
+      <statement>D'où vient le sport de curling sont originaires?</statement>
+      <answers>
+        <correct>Écosse</correct>
+        <wrong>Irlande</wrong>
+        <wrong>Antartica</wrong>
+        <wrong>Finlande</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="40">
+      <statement>Quelle est la seule mer sur Terre sans littoral?</statement>
+      <answers>
+        <correct>Mer des Sargasses</correct>
+        <wrong>Méditerranée</wrong>
+        <wrong>Océan Atlantique</wrong>
+        <wrong>Mer Morte</wrong>
+      </answers>
+    </question>
+  </medium>
+  <hard>
+    <question lang="en" lvl="hard" id="41">
+      <statement>Quel âge avait Sheldon Cooper quand il a obtenu son doctorat?</statement>
+      <answers>
+        <correct>16</correct>
+        <wrong>22</wrong>
+        <wrong>10</wrong>
+        <wrong>30</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="42">
+      <statement>Le jour de l'assassiner de sa femme, ce que la boisson était Andy boire dans le film « The Shawshank Redemption »?</statement>
+      <answers>
+        <correct>Bourbon</correct>
+        <wrong>Vodka</wrong>
+        <wrong>L'eau</wrong>
+        <wrong>jus</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="43">
+      <statement>Au début, qu'est-ce que Dieu nous donne pour la viande?</statement>
+      <answers>
+        <correct>Herb</correct>
+        <wrong>l'eau</wrong>
+        <wrong>Feu</wrong>
+        <wrong>Pluie</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="44">
+      <statement>Quel est l'ingrédient principal hushpuppies?</statement>
+      <answers>
+        <correct>Cornmeal</correct>
+        <wrong>Chocolat</wrong>
+        <wrong>Sirop de maïs</wrong>
+        <wrong>Bleu</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="45">
+      <statement>The Chainsmokers' et piste de Halsey 2016 « Closer » a été inspiré par une autre chanson qui groupe de rock de 1990?</statement>
+      <answers>
+        <correct>Blink-182</correct>
+        <wrong>Les canneberges</wrong>
+        <wrong>Pearl Jam</wrong>
+        <wrong>Red Hot Chili Peppers</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="46">
+      <statement>En quelle année a été « Se7en » libéré?</statement>
+      <answers>
+        <correct>1995</correct>
+        <wrong>1990</wrong>
+        <wrong>2008</wrong>
+        <wrong>1800</wrong>
+      </answers>
+    </question>
+  </hard>
+  <veryhard>
+    <question lang="en" lvl="veryhard" id="47">
+      <statement>Paul D. Hubbard est le quart-arrière qui est crédité d'inventer le petit groupe moderne. Quel malheur at-il souffert de?</statement>
+      <answers>
+        <correct>la surdité</correct>
+        <wrong>La cécité</wrong>
+        <wrong>Il n'y avait une jambe</wrong>
+        <wrong>Obésité</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="48">
+      <statement>Combien de livres de nourriture ne Hollywood superstar Dwayne « The Rock » Johnson consomment tous les jours?</statement>
+      <answers>
+        <correct>10</correct>
+        <wrong>4</wrong>
+        <wrong>28</wrong>
+        <wrong>15</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="49">
+      <statement>Quelle est la première des quatre tasses de convives de vin sont obligés de boire à la Pâque Seder signifiait pour?</statement>
+      <answers>
+        <correct>Kiddoush</correct>
+        <wrong>Maggid</wrong>
+        <wrong>Hallel</wrong>
+        <wrong>Birkat Hamazon</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="50">
+      <statement>Combien de jours at-il fallu à Moïse de voyage de Horeb à Kadès?</statement>
+      <answers>
+        <correct>11</correct>
+        <wrong>2</wrong>
+        <wrong>365</wrong>
+        <wrong>62</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="51">
+      <statement>Quelle a été la première console de jeu vidéo avec un CD-ROM intégré dans tout cela?</statement>
+      <answers>
+        <correct>Panasonic 3DO</correct>
+        <wrong>Nintendo Game Cube</wrong>
+        <wrong>Sega Dreamcast</wrong>
+        <wrong>Sony PlayStation</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="52">
+      <statement>Qui était l'idée d'avoir une chanson d'opéra très fort jeu sur les haut-parleurs dans la prison dans le film « The Shawshank Redemption »?</statement>
+      <answers>
+        <correct>Tim Robbins</correct>
+        <wrong>Bob Gunton</wrong>
+        <wrong>Morgan Freeman</wrong>
+        <wrong>Clancy Brown</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="53">
+      <statement>Combien de temps at-il fallu pour le développement du film « The Shawshank Redemption » pour commencer après que les droits avaient été achetés par Frank Darabont?</statement>
+      <answers>
+        <correct> ans)</correct>
+        <wrong>10 ans</wrong>
+        <wrong>1 an</wrong>
+        <wrong>77 ans</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="54">
+      <statement>Qui a été le premier artiste de la musique occidentale (s) pour être autorisé à un concert en Chine?</statement>
+      <answers>
+        <correct>Wham!</correct>
+        <wrong>George Michael</wrong>
+        <wrong>Céline Dion</wrong>
+        <wrong>Justn Bieber</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="55">
+      <statement>Où se trouve l'Ecole de Magie Uagadou situé?</statement>
+      <answers>
+        <correct>Ouganda</correct>
+        <wrong>Burundi</wrong>
+        <wrong>Emirats Arabes Unis</wrong>
+        <wrong>Russie</wrong>
+      </answers>
+    </question>
+  </veryhard>
+</root>

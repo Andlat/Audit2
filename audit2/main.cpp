@@ -16,6 +16,8 @@
 using namespace std;
 using namespace tinyxml2;
 
+#define FICHIER_QUESTIONS "questions.xml"
+
 #define FACILE 5
 #define MOYEN 5
 #define DIFFICILE 3
@@ -47,7 +49,7 @@ int main()
 	 *************************************************************/
 	srand(int(time(NULL)));
 
-	QuestionsParser* xmlQuestions = new QuestionsParser("../qs_scraper/data.xml");
+	QuestionsParser* xmlQuestions = new QuestionsParser(FICHIER_QUESTIONS);
 
 	//chargement du fichier XML de questions en mémoire
 	try{
