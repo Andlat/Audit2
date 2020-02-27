@@ -5,6 +5,8 @@
 #include <ctime>
 #include <vector>
 #include <algorithm>
+#include <chrono>
+#include <thread>
 
 #include "tinyxml2.h"
 #include "Question.h"
@@ -14,14 +16,30 @@
 using namespace std;
 using namespace tinyxml2;
 
-#define NB_TOURS 15
+#define FACILE 5
+#define MOYEN 5
+#define DIFFICILE 3
+#define TRES_DIFFICILE 2
+
+constexpr unsigned NB_TOURS = FACILE + MOYEN + DIFFICILE + TRES_DIFFICILE;
+
 #define INCREMENTATION_MONTANT 1000
 
 bool SelectionQuestions(QuestionsParser* parser);
+Question::Level SelectDiff(unsigned questionNo);
 
 vector<Question> questions(NB_TOURS);
 unsigned montant = 0;
 
+
+string AfficherDiff(Question::Level diff) {
+	switch (diff) {
+	case Question::Level::EASY: return "FACILE";
+	case Question::Level::MEDIUM: return "MOYEN";
+	case Question::Level::HARD: return "DIFFICILE";
+	case Question::Level::VERYHARD: return "TRES DIFFICILE";
+	}
+}
 int main()
 {
 	/*************************************************************
@@ -29,7 +47,7 @@ int main()
 	 *************************************************************/
 	srand(int(time(NULL)));
 
-	QuestionsParser* xmlQuestions = new QuestionsParser("questions_niveaux.xml");
+	QuestionsParser* xmlQuestions = new QuestionsParser("../qs_scraper/data.xml");
 
 	//chargement du fichier XML de questions en mémoire
 	try{
@@ -39,13 +57,14 @@ int main()
 		return -1;
 	}
 
+	
 	//Choix aleatoire des questions
 	if (!SelectionQuestions(xmlQuestions))
 		return -2;
 
 	delete xmlQuestions;	xmlQuestions = nullptr;
 
-
+	
 	/*************************************************************
 	 ********************** BOUCLE DE JEUX ***********************
 	 *************************************************************/
@@ -57,6 +76,11 @@ int main()
 			<< endl;
 
 		Question* q = &questions[tour - 1];
+
+		cout << "Difficulte: " << AfficherDiff(q->getLvl()) << endl << endl;
+		cout << "Montant actuel: " << montant << '$' << endl;
+		cout << "Question pour " << INCREMENTATION_MONTANT << '$' << endl << endl;
+
 
 		q->randomize();//change l'ordre des choix de manière aléatoire
 		cout << *q;
@@ -70,11 +94,11 @@ int main()
 
 			cout << "BONNE REPONSE !!" << endl;
 			cout << "Votre montant jusqu'a maintenant est de " << montant << '$' << endl;
-			cout << "\nVoulez-vous continuer ? (y/n) ";
+			cout << "\nVoulez-vous continuer ? (O/N) ";
 
 			char continuer = cin.get();
-
-			if (util::toUpperCase(continuer) != 'Y') {
+			
+			if (util::toUpperCase(continuer) != 'O' && util::toUpperCase(continuer) != 10) {//Si selectionne O ou entrer
 				break;//Quit game
 			}
 		}
@@ -84,7 +108,7 @@ int main()
 			break;//Lost game
 		}
 
-		cin.get();//Attendre que l'tilisateur appuie sur une touche pour continuer
+		cin.get();//Attendre que l'utilisateur appuie sur une touche pour continuer
 		system("CLS");
 	}
 
@@ -92,26 +116,30 @@ int main()
 
 	cin.get();
 	return 0;
-
 }
 
-//TODO Choisir selon le degré de difficulté
 //Choix aleatoire des questions
 bool SelectionQuestions(QuestionsParser* parser) {
 	vector<int> used(NB_TOURS);
 	fill(used.begin(), used.end(), -1);
 
-	unsigned index=0;
+	unsigned index = 0;
+	Question::Level diff;
 
 	for (unsigned i = 0; i < NB_TOURS; ++i) {
-		//Selectionner un index qui n'a pas encore ete utilise
-		do {
-			index = rand() % parser->count() -1;
-		} while (find(used.begin(), used.end(), index) != used.end());
-		used.push_back(index);
-		
-		//lecture de la question selectionne dans le XML
+
+		//Select difficulty
+		diff = SelectDiff(i + 1);
+
 		try {
+			//Selectionner un index qui n'a pas encore ete utilise
+			do {
+				index = rand() % parser->count(diff);
+				index += parser->getOffset(diff);//Add the offset created by the previous difficulties
+			} while (find(used.begin(), used.end(), index) != used.end());
+			used.push_back(index);
+
+			//lecture de la question selectionne dans le XML
 			parser->read(questions[i], index);
 		}
 		catch (XMLError &err) {
@@ -120,4 +148,15 @@ bool SelectionQuestions(QuestionsParser* parser) {
 		}
 	}
 	return true;
+}
+
+Question::Level SelectDiff(unsigned questionNo) {
+	Question::Level diff;
+
+	if (questionNo <= FACILE) diff = Question::Level::EASY;
+	else if (questionNo <= MOYEN+FACILE) diff = Question::Level::MEDIUM;
+	else if (questionNo <= DIFFICILE+MOYEN+FACILE) diff = Question::Level::HARD;
+	else diff = Question::Level::VERYHARD;
+
+	return diff;
 }

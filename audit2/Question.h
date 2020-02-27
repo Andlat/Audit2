@@ -10,6 +10,7 @@ class Question
 public:
 	enum class Level {EASY, MEDIUM, HARD, VERYHARD};
 	static const std::unordered_map<std::string, Level> getLevel;
+	static const std::string toString(Level lvl);
 
 	Question();
 	Question(std::string q, std::string* choix/*, std::string indice*/, int r, Level lvl);

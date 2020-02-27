@@ -16,6 +16,8 @@
 class QuestionsParser
 {
 public:
+	enum class Node { ROOT, EASY, MEDIUM, HARD, VERYHARD };
+
 	QuestionsParser();
 	QuestionsParser(std::string path);
 	~QuestionsParser();
@@ -34,18 +36,21 @@ public:
 	  **/
 	void read(Question& q, unsigned index);
 
-	unsigned count();
+	unsigned count(Question::Level diff);/* throws XMLError */
+	unsigned countTotal();/* throws XMLError */
+	unsigned getOffset(Question::Level diff);/* throws XMLError */
 
 private:
 	void nextQuestion(); /* throws XMLError */
 	void prevQuestion(); /* throws XMLError */
-
-	unsigned _count = 0;//Number of questions available in the xml
+	void nextDifficulty(); /* throws XMLError */
+	void prevDifficulty(); /* throws XMLError */
 
 	std::string _path;
 	tinyxml2::XMLDocument _doc;
 	tinyxml2::XMLNode* _root;
 	tinyxml2::XMLElement* _currentChild;
+	tinyxml2::XMLNode* _currentDifficulty;
 
 };
 

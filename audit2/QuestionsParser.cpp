@@ -56,17 +56,17 @@ void QuestionsParser::load(string path) /* throws XMLError */
 	_root = _doc.FirstChildElement("root");
 	XMLCheckPointer(_root);
 
-	//Count the number of available questions by accessing the id of the last question
-	XMLCheckPointer(_root->LastChildElement("question"));
-	_count = stoi(_root->LastChildElement("question")->FindAttribute("id")->Value());//TODO Need to manage exception for accessing the attribute
+	_currentDifficulty = _root->FirstChild();
+	XMLCheckPointer(_currentDifficulty);
 
 	//Get first question
-	_currentChild = _root->FirstChildElement("question");
+	_currentChild = _currentDifficulty->FirstChildElement("question");
 	XMLCheckPointer(_currentChild);
 }
 
 void QuestionsParser::read(Question &q, unsigned index) {/* throws XMLError */
 	int shift = index - (stoi(_currentChild->FindAttribute("id")->Value()) -1);
+
 	if (shift != 0) {
 		int sign = shift / abs(shift);
 		for (; abs(shift) > 0; shift -= sign) {
@@ -85,12 +85,10 @@ void QuestionsParser::read(Question &q) /* throws XMLError */
 		throw XML_NO_TEXT_NODE;
 	XMLCheckPointer(_currentChild)
 
-
 	string question, indice;
 	string choix[4];
 
 	XMLElement* statement, *answer, *hint;
-
 
 	//Lire la question
 	statement = _currentChild->FirstChildElement("statement");
@@ -121,21 +119,65 @@ void QuestionsParser::read(Question &q) /* throws XMLError */
 		choix[i] = answer->GetText();
 	}
 
-	//TODO manage exceptions for the difficulty // Accessing the attribute (attribute lvl)
+	//Creer la question
 	q = Question(question, choix, 0, Question::getLevel.find(_currentChild->FindAttribute("lvl")->Value())->second);
 
-	this->nextQuestion();
+	//Aller à la prochaine question si ce n'est pas la dernière
+	if(stoi(_currentChild->FindAttribute("id")->Value()) != this->countTotal())
+		this->nextQuestion();
 }
 
+// TODO Verifier si a la derniere de la difficulte
 void QuestionsParser::nextQuestion() { /* throws XMLError */
-	_currentChild = _currentChild->NextSiblingElement("question");
-	XMLCheckPointer(_currentChild)
+	try {
+		_currentChild = _currentChild->NextSiblingElement("question");
+		XMLCheckPointer(_currentChild);
+	}catch(XMLError err){
+		this->nextDifficulty();//Will throw an exception if is at the last question of the last difficulty
+		_currentChild = _currentDifficulty->FirstChildElement("question");//Access the next question once the difficulty is changed
+	}
 }
 void QuestionsParser::prevQuestion() { /* throws XMLError */
-	_currentChild = _currentChild->PreviousSiblingElement("question");
-	XMLCheckPointer(_currentChild)
+	try {
+		_currentChild = _currentChild->PreviousSiblingElement("question");
+		XMLCheckPointer(_currentChild);
+	}catch (XMLError err) {
+		this->prevDifficulty();//Will throw an exception if is at the first question of the first difficulty
+		_currentChild = _currentDifficulty->FirstChildElement("question");
+	}
 }
 
-unsigned QuestionsParser::count(){
-	return _count;
+void QuestionsParser::nextDifficulty() { /* throws XMLError */
+	_currentDifficulty = _currentDifficulty->NextSibling();
+	XMLCheckPointer(_currentDifficulty);
+}
+void QuestionsParser::prevDifficulty() { /* throws XMLError */
+	_currentDifficulty = _currentDifficulty->PreviousSibling();
+	XMLCheckPointer(_currentDifficulty);
+}
+
+unsigned QuestionsParser::count(Question::Level diff) {/* throws XMLError */
+	XMLElement* node = _root->FirstChildElement(Question::toString(diff).c_str());
+	XMLCheckPointer(node);
+
+	int firstID = stoi(node->FirstChildElement("question")->FindAttribute("id")->Value());
+	int lastID = stoi(node->LastChildElement("question")->FindAttribute("id")->Value());
+	
+
+	return lastID-firstID+1;
+}
+
+unsigned QuestionsParser::countTotal() {/* throws XMLError */
+	XMLElement* node = _root->FirstChildElement(Question::toString(Question::Level::VERYHARD).c_str());
+	XMLCheckPointer(node);
+
+	return stoi(node->LastChildElement("question")->FindAttribute("id")->Value());
+}
+
+unsigned QuestionsParser::getOffset(Question::Level diff)
+{
+	XMLElement* node = _root->FirstChildElement(Question::toString(diff).c_str());
+	XMLCheckPointer(node);
+
+	return stoi(node->LastChildElement("question")->FindAttribute("id")->Value()) - this->count(diff);
 }

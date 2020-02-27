@@ -16,15 +16,36 @@ const parser = {
 		let xml = libxml.parseXmlString(xmlData, { noblanks: true });
 		return Promise.resolve(xml);
 	},
+	orderQuestionsWithID: (xml)=>{
+		let lvl = xml.root().childNodes();
+		let ID = 1;
+
+		for(let key in lvl){
+			lvl[key].childNodes().map(q =>{
+					q.attr({id:ID});
+					++ID;
+				});
+		}
+		return Promise.resolve(xml);
+	},
 	convertQsToXml: (data)=>{
+		let lvl = {easy:'easy', medium:'medium', hard:'hard', veryhard:'veryhard'}
+
 		let xml = new libxml.Document();
 		let xmlRoot = xml.node('root');
 
+		//Create the difficulty nodes
+		let lvlNodes = {easy:xmlRoot.node(lvl.easy), medium: xmlRoot.node(lvl.medium), hard: xmlRoot.node(lvl.hard), veryhard:xmlRoot.node(lvl.veryhard)};
+
+		//Split the questions line by line
 		data = data.split('\n').map(s => s.trim());
 
+		//Create the XML for the questions
 		for(let i=0; i < parseInt(data.length/7); ++i){//7 lines per question
 			let j=i*7;
-			let q = xmlRoot.node('question').attr({id:i+1, lang:'en', lvl:data[j]});
+			let lvl_key = data[j].toLowerCase();
+
+			let q = lvlNodes[lvl_key].node('question').attr({lang:'en', lvl:lvl_key});
 			q.node('statement', data[j+1]);
 
 			let a = q.node('answers');
@@ -54,6 +75,7 @@ const parser = {
 if(!process.argv.includes('--append')){//Just write to file
 	fs.readFile(process.argv[process.argv.indexOf('-f')+1], 'utf-8')
 	.then(parser.convertQsToXml)
+	.then(parser.orderQuestionsWithID)
 	.then(parser.write)
 	.catch(err=>{
 		console.error(err);

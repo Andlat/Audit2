@@ -3,7 +3,17 @@
 
 using namespace std;
 
-const std::unordered_map<std::string, Question::Level> Question::getLevel = { {"Easy", Level::EASY}, {"Medium", Level::MEDIUM}, {"Hard", Level::HARD}, {"VeryHard", Level::VERYHARD} };
+const std::unordered_map<std::string, Question::Level> Question::getLevel = { {"easy", Level::EASY}, {"medium", Level::MEDIUM}, {"hard", Level::HARD}, {"veryhard", Level::VERYHARD} };
+const std::string Question::toString(Level lvl) {
+	auto it = getLevel.begin();
+	while (it != getLevel.end()) {
+		if (it->second == lvl)
+			return it->first;
+		
+		++it;
+	}
+	return "";
+}
 
 Question::Question()
 {
