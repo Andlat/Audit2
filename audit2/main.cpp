@@ -16,16 +16,17 @@
 using namespace std;
 using namespace tinyxml2;
 
-#define FICHIER_QUESTIONS "questions.xml"
+//#define FICHIER_QUESTIONS "questions.xml"
+#define FICHIER_QUESTIONS "question-demo.xml"
 
-#define FACILE 5
+#define FACILE 1
 #define MOYEN 5
-#define DIFFICILE 3
-#define TRES_DIFFICILE 2
+#define DIFFICILE 0
+#define TRES_DIFFICILE 0
 
 constexpr unsigned NB_TOURS = FACILE + MOYEN + DIFFICILE + TRES_DIFFICILE;
 
-#define INCREMENTATION_MONTANT 1000
+#define INCREMENTATION_MONTANT 1000000000
 
 bool SelectionQuestions(QuestionsParser* parser);
 Question::Level SelectDiff(unsigned questionNo);

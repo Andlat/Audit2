@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <easy>
+    <question lang="en" lvl="easy" id="1">
+      <statement>Quel genie n'est pas reconnu par l'oiq?</statement>
+      <answers>
+        <correct>Genie robotique</correct>
+        <wrong>Genie informatique</wrong>
+        <wrong>Genie electrique</wrong>
+        <wrong>Genie civil</wrong>
+      </answers>
+    </question>
+    </easy>
+	<medium>
+    <question lang="en" lvl="medium" id="22">
+      <statement>Bobby Locke was a popular golf player. Which nation did he come from?</statement>
+      <answers>
+        <correct>South Africa</correct>
+        <wrong>Canada</wrong>
+        <wrong>Spain</wrong>
+        <wrong>China</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="23">
+      <statement>Harry Potter has a pet owl. What's the name of this owl?</statement>
+      <answers>
+        <correct>Hedwig</correct>
+        <wrong>Errol</wrong>
+        <wrong>Owlbert Einstein</wrong>
+        <wrong>Hootie</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="24">
+      <statement>1990's actress Holly Robinson went on to marry which now-retired NFL player?</statement>
+      <answers>
+        <correct>Rodney Peete</correct>
+        <wrong>Luke Kuechly</wrong>
+        <wrong>Andrew Luck</wrong>
+        <wrong>Barry Sanders</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="25">
+      <statement>In the 2018 French Open women's singles tournament, Naomi Osaka was defeated in the third round. Who did she lose to?</statement>
+      <answers>
+        <correct>Madison Keys</correct>
+        <wrong>Sloane Stephens</wrong>
+        <wrong>Naomi Osaka</wrong>
+        <wrong>Simona Halep</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="26">
+      <statement>During its vernal equinox, the Northern Hemisphere of the Earth tilts in which direction?</statement>
+      <answers>
+        <correct>Towards the Sun</correct>
+        <wrong>East</wrong>
+        <wrong>Away from the Sun</wrong>
+        <wrong>North</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="27">
+      <statement>How many legs does a butterfly have?</statement>
+      <answers>
+        <correct>6</correct>
+        <wrong>4</wrong>
+        <wrong>2</wrong>
+        <wrong>16</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="28">
+      <statement>Who was the shortest player ever to play in the NBA?</statement>
+      <answers>
+        <correct>Tyrone Bogues</correct>
+        <wrong>Lionel Malamed</wrong>
+        <wrong>Ed Melvin</wrong>
+        <wrong>Yao Ming</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="29">
+      <statement>The most-iconic moment in the illustrious career of Jimi Hendrix was his playing "the Star Spangled Banner" at the Woodstock music festival. In which year did this occur?</statement>
+      <answers>
+        <correct>1969</correct>
+        <wrong>1842</wrong>
+        <wrong>1981</wrong>
+        <wrong>1942</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="30">
+      <statement>Which team sent four players to the 2015 NBA All-Star Game?</statement>
+      <answers>
+        <correct>Atlanta Hawks</correct>
+        <wrong>Miami Heat</wrong>
+        <wrong>Dallas Mavericks</wrong>
+        <wrong>Toronto Raptors</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="31">
+      <statement>The character for Matilda in "Leon" proved to be the inspiration for which movie?</statement>
+      <answers>
+        <correct>Colombiana</correct>
+        <wrong>Chuckie</wrong>
+        <wrong>Hannah</wrong>
+        <wrong>Jaws</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="32">
+      <statement>What cattle end-product was named Wisconsin's Unofficial State Muffin in 1989?</statement>
+      <answers>
+        <correct>Cow Chip</correct>
+        <wrong>Cheese muffin</wrong>
+        <wrong>Chocolate chips muffin</wrong>
+        <wrong>Brownie</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="33">
+      <statement>In 2015, what major water body in the State of Indiana's capital city, Indianapolis, was dyed green during the celebration of St. Patrick's Day?</statement>
+      <answers>
+        <correct>White River</correct>
+        <wrong>Cedar Creek</wrong>
+        <wrong>Deep River</wrong>
+        <wrong>Big Blue River</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="34">
+      <statement>In the latter 19th century, which now-common Valentine's Day practice was considered bad luck?</statement>
+      <answers>
+        <correct>Signing cards</correct>
+        <wrong>Kissing</wrong>
+        <wrong>Giving flowers</wrong>
+        <wrong>Eating at the restaurant</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="35">
+      <statement>What is the name of the wizarding newspaper based in London?</statement>
+      <answers>
+        <correct>The Daily Prophet</correct>
+        <wrong>The New-York Times</wrong>
+        <wrong>Gazette de Montreal</wrong>
+        <wrong>The magical paper</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="36">
+      <statement>Which rapper is featured on Fifth Harmony's song "Worth It"?</statement>
+      <answers>
+        <correct>Kid Ink</correct>
+        <wrong>Cardi B.</wrong>
+        <wrong>Kendrick Lamar</wrong>
+        <wrong>DaBaby</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="37">
+      <statement>Prior to Brooks taking his life, what does he carve on the wall in the movie "The Shawshank Redemption"?</statement>
+      <answers>
+        <correct>Brooks was here</correct>
+        <wrong>Brooks dies here</wrong>
+        <wrong>I am hungry</wrong>
+        <wrong>Kill me</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="38">
+      <statement>In what year was the first modern Olympic Games held?</statement>
+      <answers>
+        <correct>1896</correct>
+        <wrong>300 A.D.</wrong>
+        <wrong>1452</wrong>
+        <wrong>2004</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="39">
+      <statement>Where did the sport of curling originate?</statement>
+      <answers>
+        <correct>Scotland</correct>
+        <wrong>Ireland</wrong>
+        <wrong>Antartica</wrong>
+        <wrong>Finland</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="medium" id="40">
+      <statement>What is the only sea on Earth with no coastline?</statement>
+      <answers>
+        <correct>Sargasso Sea</correct>
+        <wrong>Mediterranean sea</wrong>
+        <wrong>Atlantic Ocean</wrong>
+        <wrong>Dead sea</wrong>
+      </answers>
+    </question>
+  </medium>
+  <hard>
+    <question lang="en" lvl="hard" id="41">
+      <statement>How old was Sheldon Cooper when he earned his PhD?</statement>
+      <answers>
+        <correct>16</correct>
+        <wrong>22</wrong>
+        <wrong>10</wrong>
+        <wrong>30</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="42">
+      <statement>On the day of his wife's murder, what drink was Andy drinking in the movie "The Shawshank Redemption"?</statement>
+      <answers>
+        <correct>Bourbon</correct>
+        <wrong>Vodka</wrong>
+        <wrong>Water</wrong>
+        <wrong>Juice</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="43">
+      <statement>In the beginning, what did God give us for meat?</statement>
+      <answers>
+        <correct>Herb</correct>
+        <wrong>Water</wrong>
+        <wrong>Fire</wrong>
+        <wrong>Rain</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="44">
+      <statement>What is the main ingredient in hushpuppies?</statement>
+      <answers>
+        <correct>Cornmeal</correct>
+        <wrong>Chocolate</wrong>
+        <wrong>Corn syrup</wrong>
+        <wrong>Blue</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="45">
+      <statement>The Chainsmokers' and Halsey's 2016 track "Closer" was inspired by another song by which 1990's rock band?</statement>
+      <answers>
+        <correct>Blink-182</correct>
+        <wrong>The Cranberries</wrong>
+        <wrong>Pearl Jam</wrong>
+        <wrong>Red Hot Chili Peppers</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="hard" id="46">
+      <statement>In what year was "Se7en" released?</statement>
+      <answers>
+        <correct>1995</correct>
+        <wrong>1990</wrong>
+        <wrong>2008</wrong>
+        <wrong>1800</wrong>
+      </answers>
+    </question>
+  </hard>
+  <veryhard>
+    <question lang="en" lvl="veryhard" id="47">
+      <statement>Paul D. Hubbard is the quarterback who is credited with inventing the modern huddle.  What affliction did he suffer from?</statement>
+      <answers>
+        <correct>Deafness</correct>
+        <wrong>Blindness</wrong>
+        <wrong>Only had one leg</wrong>
+        <wrong>Obesity</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="48">
+      <statement>How many pounds of food does Hollywood superstar Dwayne "the Rock" Johnson consume daily?</statement>
+      <answers>
+        <correct>10</correct>
+        <wrong>4</wrong>
+        <wrong>28</wrong>
+        <wrong>15</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="49">
+      <statement>What is the first of the four cups of wine diners are obligated to drink at the Passover Seder meant for?</statement>
+      <answers>
+        <correct>Kiddush</correct>
+        <wrong>Maggid</wrong>
+        <wrong>Hallel</wrong>
+        <wrong>Birkat Hamazon</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="50">
+      <statement>How many days did it take Moses to journey from Horeb to Kadeshbarnea?</statement>
+      <answers>
+        <correct>11</correct>
+        <wrong>2</wrong>
+        <wrong>365</wrong>
+        <wrong>62</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="51">
+      <statement>What was the first videogame console with a CD-ROM embedded into it?</statement>
+      <answers>
+        <correct>Panasonic 3DO</correct>
+        <wrong>Nintendo Game Cube</wrong>
+        <wrong>Sega Dreamcast</wrong>
+        <wrong>Sony PlayStation</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="52">
+      <statement>Whose idea was it to have a very loud opera song playing over the speakers in the prison in the movie "The Shawshank Redemption"?</statement>
+      <answers>
+        <correct>Tim Robbins</correct>
+        <wrong>Bob Gunton</wrong>
+        <wrong>Morgan Freeman</wrong>
+        <wrong>Clancy Brown</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="53">
+      <statement>How long did it take for development of the film "The Shawshank Redemption" to begin after the rights had been purchased by Frank Darabont?</statement>
+      <answers>
+        <correct>5 years</correct>
+        <wrong>10 years</wrong>
+        <wrong>1 year</wrong>
+        <wrong>77 years</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="54">
+      <statement>Who was the first Western music artist(s) to be allowed to perform a concert in China?</statement>
+      <answers>
+        <correct>Wham!</correct>
+        <wrong>George Michael</wrong>
+        <wrong>Celine Dion</wrong>
+        <wrong>Justn Bieber</wrong>
+      </answers>
+    </question>
+    <question lang="en" lvl="veryhard" id="55">
+      <statement>Where is the Uagadou School of Magic located?</statement>
+      <answers>
+        <correct>Uganda</correct>
+        <wrong>Burundi</wrong>
+        <wrong>United Arab Emirates</wrong>
+        <wrong>Russia</wrong>
+      </answers>
+    </question>
+  </veryhard>
+</root>
